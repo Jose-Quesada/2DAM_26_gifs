@@ -15,6 +15,7 @@ export class GifsService {
 
   constructor() {
     console.log('GifService inicializado');
+    this.loadTrendingGifs();
   }
 
   loadTrendingGifs(){
